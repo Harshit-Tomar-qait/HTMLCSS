@@ -6,24 +6,74 @@ html,body
     height: 100%;
     font-family: "Times New Roman", Times, serif;
     background-image: url(bck1.jpeg);
-    background-repeat: no-repeat;
     background-blend-mode: lighten;
-    background-size: 100%;
+    background-size: cover;
+    
 }
-
+.Header
+{   
+    background-color: black;
+    
+}
 .footer
 {
-    margin-top:25%;
+    position: fixed;
     padding-left: 80px;
     padding-bottom: 10px;
+    background-color: grey;
+    bottom: 0;
+    left:0;
+    width:100%;
+    
 }
-.nav
+nav
 {
     display:flex;
-    justify-content: space-between;
-
+    justify-content:space-evenly;
+    border-bottom:2px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+nav>p
+{
+    margin-bottom:0;
+    color:white;
+}
+nav>p:hover
+{
+    color:red;
+    padding:0 10px 0 10px;   
 }
 .heading
 {
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size:30px;
+}
+.Section
+{
+    margin-left: 30px;
+    margin-top: 10px;
+    display:flex;
+    justify-content: flex-start;
+    color:whitesmoke;
     
+    
+}
+
+.card
+{
+    height:300px;
+    width: 300px;
+}
+.card:hover
+{
+    color:red;
+    padding:0 10px 0 10px; 
+}
+img
+{
+    height:100px;
+    width: 100px;
 }
